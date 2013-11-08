@@ -1,6 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Sintony:400,700);
+
+$font-family-sans-serif: 'Sintony', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $body-bg:  #2980b9; 
 $navbar-default-bg: #34495e;
 $navbar-default-link-color: white;
 $brand-primary: #e74c3c;
 $jumbotron-bg: #bdc3c7;
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
